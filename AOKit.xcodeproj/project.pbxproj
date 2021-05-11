@@ -16,6 +16,7 @@
 		B4866930264A8F6C00627FA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B486692F264A8F6C00627FA0 /* main.m */; };
 		B486693A264A8F6C00627FA0 /* AOKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4866939264A8F6C00627FA0 /* AOKitTests.m */; };
 		B4866945264A8F6C00627FA0 /* AOKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4866944264A8F6C00627FA0 /* AOKitUITests.m */; };
+		B4866954264A8FA200627FA0 /* AOButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B4866953264A8FA200627FA0 /* AOButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		B4866940264A8F6C00627FA0 /* AOKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AOKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4866944264A8F6C00627FA0 /* AOKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AOKitUITests.m; sourceTree = "<group>"; };
 		B4866946264A8F6C00627FA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4866952264A8FA200627FA0 /* AOButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AOButton.h; sourceTree = "<group>"; };
+		B4866953264A8FA200627FA0 /* AOButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AOButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				B4866921264A8F6900627FA0 /* SceneDelegate.m */,
 				B4866923264A8F6900627FA0 /* ViewController.h */,
 				B4866924264A8F6900627FA0 /* ViewController.m */,
+				B4866952264A8FA200627FA0 /* AOButton.h */,
+				B4866953264A8FA200627FA0 /* AOButton.m */,
 				B4866926264A8F6900627FA0 /* Main.storyboard */,
 				B4866929264A8F6C00627FA0 /* Assets.xcassets */,
 				B486692B264A8F6C00627FA0 /* LaunchScreen.storyboard */,
@@ -266,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4866954264A8FA200627FA0 /* AOButton.m in Sources */,
 				B4866925264A8F6900627FA0 /* ViewController.m in Sources */,
 				B486691F264A8F6900627FA0 /* AppDelegate.m in Sources */,
 				B4866930264A8F6C00627FA0 /* main.m in Sources */,
